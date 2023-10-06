@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: chocolate;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: wheat;
+}
+
+main{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    display: inherit;
+    flex-direction: inherit;
+
+}
+
+.left{
+    padding: 1rem;
+}
+.left, 
+.right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top_left_section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.top_left_section span{
+    font-size: 2rem;
+    margin-right: 5px;
+}
+
+.left .middle_left_section{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mid1 h2,
+.mid1 p,
+.mid1 button{
+    margin-bottom: 1rem;
+}
+
+.middle_left_section .mid1 button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 6px 0;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid gray;
+    cursor: pointer;
+
+}
+
+.middle_left_section .mid1 button img{
+    width: 20px;
+    margin-right: 5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+form input[type = email],
+form input[type = password]{
+    border: 0;
+    border-bottom: 2px solid gray;
+    margin:1rem 0;
+    padding: .7rem 0;
+
+}
+
+form input[type = email]:focus,
+form input[type = password]:focus{
+    outline: none;
+
+}
+
+.Login_bottom_section input{
+    margin-right: 2px;
+}
+.Login_bottom_section{
+    display: flex;
+    margin: 1rem 0 2rem 0;
+}
+
+.Login_bottom_section p{
+    margin-right: 6rem;
+}
+
+.forgotpass a{
+    color: black;
+}
+
+form button{
+    background-color: black;
+    color: wheat;
+    padding: .7rem 0;
+    border: none;
+    border-radius: 9px;
+    margin-bottom: .7rem;
+}
+
+.SignUp{
+    text-align: center;
+}
+
+.SignUp a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.right{
+    background-image:url(/Login_Page/music.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-content: flex-end;
+    padding: 1.5rem;
+    color: white;
+    
+}
+
+.rightdivParagraph{
+    font-size: 1.3rem;
+}
+
+.ratingandHallName{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.HallName h3{
+    font-size: 1.3rem;
+    margin-bottom: .7rem;
+
+}
+
+.HallName p{
+    margin-top: .3rem;
+    font-size: .9rem;
+}
+
+.ratebutton{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.ratebutton button{
+    background-color: transparent;
+    border-radius: 50%;
+    padding: .5rem;
+    border: 2px solid gray;
+}
